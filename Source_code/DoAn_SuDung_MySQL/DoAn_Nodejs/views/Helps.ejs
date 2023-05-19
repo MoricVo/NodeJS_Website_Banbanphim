@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+	<title><%= title %></title>
+</head>
+   <style>
+	   td
+	   {
+		font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight:700;
+    
+	
+    color:whitesmoke;
+	   }
+	   th
+	   {
+		font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:600	;
+    
+	
+    color:whitesmoke;
+	   }
+   </style>
+<body>
+	<div class="container">
+		<!-- Navbar -->
+		<%- include('includes/navbar'); %>
+		
+		<!-- Card: Header and Footer -->
+		<nav id="navbar-example2" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#fat">@fat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mdo">@mdo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#one">one</a>
+                  <a class="dropdown-item" href="#two">two</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#three">three</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <h4 id="fat">@fat</h4>
+            <p>Khôi</p>
+            <h4 id="mdo">@mdo</h4>
+            <p>Khôn</p>
+            <h4 id="one">one</h4>
+            <p>Vl</p>
+            <h4 id="two">two</h4>
+            <p>Ra</p>
+            <h4 id="three">three</h4>
+            <p>...</p>
+          </div>
+		
+		<!-- Footer -->
+		<%- include('includes/footer'); %>
+	</div>
+	
+	<%- include('includes/javascript'); %>
+</body>
+
+</html>

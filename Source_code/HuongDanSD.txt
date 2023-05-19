@@ -1,0 +1,34 @@
+Hướng dẫn sử dụng:
+1.1	Lưu ý
+-Do nhóm chúng em muốn tìm hiểu hơn về cách vận hành và cách xây dựng hệ thống trang web
+được viết bằng cả 2 cơ sở dữ liệu  là:PhpMyAdmin(Mysql),MonggoDatabase 
+nên nhóm chúng em đã xây dựng hai hệ thống sử dụng hai csdl này để làm đồ án
+và đồ án còn nhiều lỗi chưa được tối ưu nhóm chúng em sẽ khắc phục trong thời gian tới.
+Em xin cảm ơn thầy!
+
+1.2	Hướng dẫn sử dụng
+
+-Đối với trang web sử dụng MySQL
+
+Quyền hạn:Admin
+
+TK:qqqqqq
+
+MK:qqqqqq
+Quyền hạn:User
+
+TK:222222
+
+MK:222222 
+
+-Đối với trang web sử dụng MonggoDB
+Quyền hạn:Admin
+
+TK:admin1
+
+MK:1
+Quyền hạn:User
+
+TK:user1
+
+MK:1
